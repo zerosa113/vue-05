@@ -27,7 +27,7 @@ export default {
           this.describe = data.records.location[6].weatherElement[0].time[0].parameter.parameterName;
         })
     },
-    //
+
     // 圖片串流匯入
     logImg(e) {
       const sourceImg = e.target.files[0];
